@@ -2,7 +2,6 @@
 function goTop(){
 	window.addEventListener('scroll', () => {
 			var scroll = document.documentElement.scrollTop;
-			console.log(scroll)
 			var goTopBtn = document.getElementById('gotop__btn');
 			if (scroll > 450) {
 				goTopBtn.style.right = 30 + 'px';
