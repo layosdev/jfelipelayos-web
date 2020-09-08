@@ -7,7 +7,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="styles.css" />
     <!-- ICON -->
-    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
   </head>
   <body class="body">
     <div class="container">
@@ -17,16 +17,18 @@
         <button id="seeProjects__btn" class="header__btn">SEE PROJECTS</button>
       </header>
       <main class="main">
-
         <section class="main__about">
           <h2 class="about__subtitle">About me</h2>
-          <p class="about__text">I'm a self-taught student focused on web technologies and frontend development, passionate about learning every day. </p>
+          <p class="about__text">
+            I'm a self-taught student focused on web technologies and frontend
+            development, passionate about learning every day.
+          </p>
         </section>
 
         <section class="main__knowledge">
           <div class="knowledge__container">
             <div class="knowledge__card knowledge__frontend">
-              <img class="card__img" src="images/monitor.svg" alt="Frontend">
+              <img class="card__img" src="images/monitor.svg" alt="Frontend" />
               <h3>FRONT END</h3>
               <ul>
                 <li>HTML</li>
@@ -35,14 +37,22 @@
               </ul>
             </div>
             <div class="knowledge__card knowledge__backend">
-              <img class="card__img" src="images/servidores.svg" alt="Frontend">
+              <img
+                class="card__img"
+                src="images/servidores.svg"
+                alt="Frontend"
+              />
               <h3>BACK END</h3>
               <ul>
                 <li>Python | Flask</li>
               </ul>
             </div>
             <div class="knowledge__card knowledge__tools">
-              <img class="card__img" src="images/engranaje.svg" alt="Frontend">
+              <img
+                class="card__img"
+                src="images/engranaje.svg"
+                alt="Frontend"
+              />
               <h3>TOOLS</h3>
               <ul>
                 <li>Git | Github</li>
@@ -50,7 +60,7 @@
               </ul>
             </div>
             <div class="knowledge__card knowledge__skills">
-              <img class="card__img" src="images/usuario.svg" alt="Frontend">
+              <img class="card__img" src="images/usuario.svg" alt="Frontend" />
               <h3>SKILLS</h3>
               <ul>
                 <li>Spanish | English</li>
@@ -63,38 +73,93 @@
           <h2 class="portfolio__subtitle">My Projects</h2>
           <div class="projects__container">
             <div class="project__card project__hbnb">
-              <img class="project__img" src="images/project-hbnb.png" alt="Airbnb">
+              <img
+                class="project__img"
+                src="images/project-hbnb.png"
+                alt="Airbnb"
+              />
               <div class="project__info">
-                <h3>HBNB</h3>
-                <ul>
-                  <li>MySql</li>
-                  <hr>
-                  <li>Python</li>
-                  <hr>
-                  <li>Flask | Jinja2</li>
-                  <hr>
-                  <li>HTML | CSS | JS</li>
-                  <hr>
-                </ul>
+                <div class="project__description">
+                  <h3>HBNB</h3>
+                  <p>
+                    AirBnB clone made to display available rental houses, with
+                    State and City filter.
+                  </p>
+                </div>
+                <div class="project__technologies">
+                  <ul>
+                    <li>
+                      <img
+                        src="images/mysql.png"
+                        alt="MySql"
+                        class="technology__logo"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="images/piton.png"
+                        alt="Python"
+                        class="technology__logo"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="images/html-5.png"
+                        alt="HTML"
+                        class="technology__logo"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="images/css.png"
+                        alt="CSS"
+                        class="technology__logo"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="images/javascript.png"
+                        alt="JavaScript"
+                        class="technology__logo"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <a
+                  href="https://github.com/duvanjm/AirBnB_clone_v3"
+                  target="_blank"
+                >
+                  <button
+                    id="seeProjects__btn"
+                    class="header__btn project__btn"
+                  >
+                    SOURCE CODE
+                  </button>
+                </a>
               </div>
             </div>
           </div>
         </section>
-
       </main>
       <footer class="footer">
-        <a href="https://twitter.com/layosdev" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/layosdev" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/layosdev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/layosdev" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://github.com/layosdev" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/layosdev/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
       </footer>
       <a href="" id="gotop__btn"><i class="fas fa-angle-double-up"></i></a>
     </div>
-    <!-- SCROLL REVEAL -->
-    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/7e5fc84313.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7e5fc84313.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- SCRIPTS -->
     <script src="script.js"></script>
-        
   </body>
 </html>
