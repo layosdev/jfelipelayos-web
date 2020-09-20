@@ -79,10 +79,28 @@ li {
   font-weight: 300;
 }
 
-.header__btn:hover {
+.btn__projects:hover {
   background-color: white;
   color: #777;
 }
+
+.blog__btn{
+  margin-left: 20px;
+}
+
+.blog__btn a{
+  color: white;
+  text-decoration: none;
+}
+.blog__btn:hover {
+  background-color: white;
+  color: #777;
+}
+.blog__btn a:hover{
+  color: #777;
+  text-decoration: none;
+}
+
 
 .main {
   background: linear-gradient(
@@ -221,6 +239,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .technology__logo {
@@ -237,6 +256,11 @@ li {
 .project__btn {
   width: 50%;
   margin: 0 auto;
+}
+
+.project__btn:hover{
+  background-color: white;
+  color: #777;
 }
 
 .footer {
@@ -264,6 +288,7 @@ li {
 .fas {
   color: #212529;
 }
+
 
 @media (max-width: 768px) {
   .body {
