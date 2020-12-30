@@ -1,4 +1,4 @@
-# console.log('Hi there 👋, i'm Felipe ✌');
+# console.log('Hi there, i'm Felipe ✌');
 
 I'm a self-taught student focused on web technologies and frontend development. My main programming lenguages/tools are HTML, CSS and Javascript.
 
